@@ -57,37 +57,25 @@ namespace MailSaver
             this.ribbon = ribbonUI;
         }
 
-        public void btnSlaOpClick(Office.IRibbonControl control)
+        public void btnSaveClick(Office.IRibbonControl control)
         {
-            Outlook.MailItem mailItem = GetMailItem();
-            if (mailItem != null)
-            {
-                SaveManager.Instance.SlaOp(mailItem);
-            }
+            ScreenManager.Instance.showSaveEmail(GetMailItem());
         }
 
 
-        public void btnSlaOpAndersClick(Office.IRibbonControl control)
+        public void btnSaveOtherClick(Office.IRibbonControl control)
         {
-            Outlook.MailItem mailItem = GetMailItem();
-            if (mailItem != null)
-            {
-                SaveManager.Instance.SlaOpAnders(mailItem);
-            }
+            ScreenManager.Instance.showSaveEmailOther(GetMailItem());
         }
 
-        public void btnNieuwProjectClick(Office.IRibbonControl control)
+        public void btnNewProjectClick(Office.IRibbonControl control)
         {
-            Outlook.MailItem mailItem = GetMailItem();
-            if (mailItem != null)
-            {
-                SaveManager.Instance.MaakProjectAan(mailItem);
-            }
+            ScreenManager.Instance.showAddProject(GetMailItem());
         }
 
-        public void btnInstellingenClick(Office.IRibbonControl control)
+        public void btnSetttingsClick(Office.IRibbonControl control)
         {
-            SaveManager.Instance.Instellingen();
+            ScreenManager.Instance.showSettings();
         }
 
 

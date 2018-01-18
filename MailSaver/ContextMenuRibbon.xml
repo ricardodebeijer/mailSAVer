@@ -5,22 +5,22 @@
   <contextMenus>
     <contextMenu idMso="ContextMenuMailItem">
       <menu id="MailSAVermenu" label="MailSAVer" insertAfterMso="Copy" getImage="GetIcon">
-        <button id="btnSlaOp"
+        <button id="btnSave"
             label="Sla Op"
             imageMso="FileSave"
-            onAction="btnSlaOpClick"/>
-        <button id="btnSlaOpAnders"
+            onAction="btnSaveClick"/>
+        <button id="btnSaveOther"
            label="Sla Op Anders"
            imageMso="FileSaveAs"
-           onAction="btnSlaOpAndersClick"/>
-        <button id="btnNiewProject"
+           onAction="btnSaveOtherClick"/>
+        <button id="btnNewProject"
           label="Nieuw Project + Sla Op"
           imageMso="MoveToFolder"
-          onAction="btnNieuwProjectClick"/>
-        <button id="btnInstellingen"
+          onAction="btnNewProjectClick"/>
+        <button id="btnSettings"
           label="Instellingen"
           imageMso="FileServerTasksMenu"
-          onAction="btnInstellingenClick"/>
+          onAction="btnSetttingsClick"/>
       </menu>
     </contextMenu>
   </contextMenus>

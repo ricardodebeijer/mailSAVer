@@ -38,25 +38,6 @@ namespace MailSaver.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute(@"<?xml version=""1.0"" encoding=""utf-16""?>
-<ArrayOfString xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"" xmlns:xsd=""http://www.w3.org/2001/XMLSchema"">
-  <string>michel.debeijer</string>
-  <string>gerne.vandencorput</string>
-  <string>nelis.luijten</string>
-  <string>marcel.keus</string>
-  <string>toos.hoezen</string>
-</ArrayOfString>")]
-        public global::System.Collections.Specialized.StringCollection EmailUitgaand {
-            get {
-                return ((global::System.Collections.Specialized.StringCollection)(this["EmailUitgaand"]));
-            }
-            set {
-                this["EmailUitgaand"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("-C:\\")]
         public string LocatieStandaard {
             get {
@@ -112,6 +93,20 @@ namespace MailSaver.Properties {
             }
             set {
                 this["LaatstGekozenFolder"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("<?xml version=\"1.0\" encoding=\"utf-16\"?>\r\n<ArrayOfString xmlns:xsi=\"http://www.w3." +
+            "org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\">\r\n  <s" +
+            "tring>test.achternaam</string>\r\n</ArrayOfString>")]
+        public global::System.Collections.Specialized.StringCollection EmailUitgaand {
+            get {
+                return ((global::System.Collections.Specialized.StringCollection)(this["EmailUitgaand"]));
+            }
+            set {
+                this["EmailUitgaand"] = value;
             }
         }
     }
