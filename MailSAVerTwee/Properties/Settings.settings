@@ -1,0 +1,37 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)">
+  <Profiles>
+    <Profile Name="(Default)" />
+  </Profiles>
+    <Settings>
+    <Setting Name="Locaties" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" /&gt;</Value>
+    </Setting>
+    <Setting Name="EmailUitgaand" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;michel.debeijer&lt;/string&gt;
+  &lt;string&gt;gerne.vandencorput&lt;/string&gt;
+  &lt;string&gt;nelis.luijten&lt;/string&gt;
+  &lt;string&gt;marcel.keus&lt;/string&gt;
+  &lt;string&gt;toos.hoezen&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="LocatieStandaard" Type="System.String" Scope="User">
+      <Value Profile="(Default)">-C:\</Value>
+    </Setting>
+    <Setting Name="LocatieAnders" Type="System.String" Scope="User">
+      <Value Profile="(Default)">+C:\Windows\</Value>
+    </Setting>
+    <Setting Name="Extensie" Type="System.String" Scope="User">
+      <Value Profile="(Default)">.msg</Value>
+    </Setting>
+    <Setting Name="FormSize" Type="System.Drawing.Size" Scope="User">
+      <Value Profile="(Default)">0, 0</Value>
+    </Setting>
+    <Setting Name="LaatstGekozenFolder" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+  </Settings>
+</SettingsFile>
