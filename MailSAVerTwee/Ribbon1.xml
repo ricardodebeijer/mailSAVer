@@ -2,7 +2,7 @@
 <customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui" onLoad="Ribbon_Load">
   <contextMenus>
     <contextMenu idMso="ContextMenuMailItem">
-      <menu id="MailSaverTweemenu" label="MailSaverTwee" insertAfterMso="Copy" getImage="GetGroupImage">
+      <menu id="MailSaverTweemenu" label="MailSAVer" insertAfterMso="Copy" getImage="GetGroupImage">
         <button id="btnSlaOp"
             label="Sla Op" 
             imageMso="FileSave"

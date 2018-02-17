@@ -6,11 +6,11 @@ using System.Security;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("MailSaverTweeTwee")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("MailSaver")]
+[assembly: AssemblyDescription("MailSAVer voor SAV Walker Hagou")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("MailSaverTweeTwee")]
+[assembly: AssemblyCompany("Ricardo de Beijer")]
+[assembly: AssemblyProduct("MailSaver Versie 2")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

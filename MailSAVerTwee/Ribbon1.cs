@@ -46,7 +46,7 @@ namespace MailSaverTwee
         {
             string ribbonXML = String.Empty;
 
-            ribbonXML = GetResourceText("MailSaverTwee.Ribbon1.xml");
+            ribbonXML = GetResourceText("MailSAVerTwee.Ribbon1.xml");
 
             return ribbonXML;
         }

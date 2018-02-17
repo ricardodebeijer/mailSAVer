@@ -160,38 +160,30 @@
   -->
   <ItemGroup>
     <Compile Include="FolderString.cs" />
-
     <Compile Include="FormEmailRename.cs">
       <SubType>Form</SubType>
     </Compile>
-	<Compile Include="FormEmailRename.Designer.cs">
-    <DependentUpon>FormEmailRename.cs</DependentUpon>
-</Compile>
-
+    <Compile Include="FormEmailRename.Designer.cs">
+      <DependentUpon>FormEmailRename.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormInstellingen.cs">
       <SubType>Form</SubType>
     </Compile>
-	<Compile Include="FormInstellingen.Designer.cs">
-    <DependentUpon>FormInstellingen.cs</DependentUpon>
-</Compile>
-
+    <Compile Include="FormInstellingen.Designer.cs">
+      <DependentUpon>FormInstellingen.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormProjectAanmaken.cs">
       <SubType>Form</SubType>
     </Compile>
-    	<Compile Include="FormProjectAanmaken.Designer.cs">
-    <DependentUpon>FormProjectAanmaken.cs</DependentUpon>
-</Compile>
- 
-
-
-
+    <Compile Include="FormProjectAanmaken.Designer.cs">
+      <DependentUpon>FormProjectAanmaken.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormProjectKiezen.cs">
       <SubType>Form</SubType>
     </Compile>
-      	<Compile Include="FormProjectKiezen.Designer.cs">
-    <DependentUpon>FormProjectKiezen.cs</DependentUpon>
-</Compile>
- 
+    <Compile Include="FormProjectKiezen.Designer.cs">
+      <DependentUpon>FormProjectKiezen.cs</DependentUpon>
+    </Compile>
     <Compile Include="InstellingString.cs" />
     <Compile Include="LocatieString.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -233,7 +225,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\MailSAVerIcon.ico" />
-    <Content Include="Ribbon1.xml" />
+    <EmbeddedResource Include="Ribbon1.xml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
