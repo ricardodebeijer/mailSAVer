@@ -156,9 +156,10 @@ namespace MailSAVerTwee
             String inofuitgaand = "";
             //Haal naam zender uit email
             String persoon = email.SenderName;
+ 
             foreach (String adres in Properties.Settings.Default.EmailUitgaand)
             {
-                if (email.SenderEmailAddress.Contains(adres))
+                if (email.SenderEmailAddress.ToString().ToLower().Contains(adres.ToLower()))
                 {
                     //Dan is het verstuurd vanuit een email adres uit de lijst, dus uitgaand
                     inofuitgaand = " .u. ";
@@ -182,6 +183,7 @@ namespace MailSAVerTwee
                 inofuitgaand = " .i. ";
             }
 
+            //viewEmailInfo(email, inofuitgaand);
 
 
             //Datum tijd notering   20160617 12.43
@@ -199,6 +201,26 @@ namespace MailSAVerTwee
             pad += datumTijd + inofuitgaand + persoon + onderwerp;
 
             return pad;
+        }
+
+        private static void viewEmailInfo(Outlook.MailItem email, string inofuitgaand)
+        {
+            String debug = "Informatie over de email:\n";
+            String sender = "Verstuurd door: " + email.SenderEmailAddress + "\n";
+            debug += sender;
+
+            String recipients = "Ontvanger(s):\n";
+
+            foreach (Outlook.Recipient item in email.Recipients)
+            {
+                recipients += "-" + item.Address + "\n";
+            }
+
+            debug += recipients;
+
+            debug += "Deze email is: '" + inofuitgaand + "'\n";
+
+            MessageBox.Show(debug);
         }
 
         internal void Instellingen()

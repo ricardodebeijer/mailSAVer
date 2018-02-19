@@ -189,6 +189,18 @@
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
+    <EmbeddedResource Include="FormEmailRename.resx">
+      <DependentUpon>FormEmailRename.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormInstellingen.resx">
+      <DependentUpon>FormInstellingen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormProjectAanmaken.resx">
+      <DependentUpon>FormProjectAanmaken.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormProjectKiezen.resx">
+      <DependentUpon>FormProjectKiezen.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
