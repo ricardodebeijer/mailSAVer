@@ -25,8 +25,11 @@ namespace MailSAVerTwee.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("<?xml version=\"1.0\" encoding=\"utf-16\"?>\r\n<ArrayOfString xmlns:xsi=\"http://www.w3." +
-            "org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" />")]
+        [global::System.Configuration.DefaultSettingValueAttribute(@"<?xml version=""1.0"" encoding=""utf-16""?>
+<ArrayOfString xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"" xmlns:xsd=""http://www.w3.org/2001/XMLSchema"">
+  <string>+H:\MH\projecten afgesloten\</string>
+  <string>+G:\MH\OFFERTES\offerte MH 2018\</string>
+</ArrayOfString>")]
         public global::System.Collections.Specialized.StringCollection Locaties {
             get {
                 return ((global::System.Collections.Specialized.StringCollection)(this["Locaties"]));
@@ -57,7 +60,7 @@ namespace MailSAVerTwee.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("-C:\\")]
+        [global::System.Configuration.DefaultSettingValueAttribute("+H:\\MH\\projecten actueel\\")]
         public string LocatieStandaard {
             get {
                 return ((string)(this["LocatieStandaard"]));

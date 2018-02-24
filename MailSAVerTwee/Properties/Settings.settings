@@ -1,12 +1,13 @@
 ﻿<?xml version='1.0' encoding='utf-8'?>
-<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
-    <Settings>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="MailSAVerTwee.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
     <Setting Name="Locaties" Type="System.Collections.Specialized.StringCollection" Scope="User">
       <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
-&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" /&gt;</Value>
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;+H:\MH\projecten afgesloten\&lt;/string&gt;
+  &lt;string&gt;+G:\MH\OFFERTES\offerte MH 2018\&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
     </Setting>
     <Setting Name="EmailUitgaand" Type="System.Collections.Specialized.StringCollection" Scope="User">
       <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
@@ -19,7 +20,7 @@
 &lt;/ArrayOfString&gt;</Value>
     </Setting>
     <Setting Name="LocatieStandaard" Type="System.String" Scope="User">
-      <Value Profile="(Default)">-C:\</Value>
+      <Value Profile="(Default)">+H:\MH\projecten actueel\</Value>
     </Setting>
     <Setting Name="LocatieAnders" Type="System.String" Scope="User">
       <Value Profile="(Default)">+C:\Windows\</Value>
