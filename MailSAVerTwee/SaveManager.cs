@@ -88,7 +88,7 @@ namespace MailSAVerTwee
                 FormEmailRename form = new FormEmailRename();
                 if (File.Exists(pad))
                 {
-                    form.SetMelding("Anders opslaan: De gekozen email komt al voor in deze directory:");
+                    form.SetMelding("Anders opslaan: De gekozen email komt al voor in deze folder:");
                 }
                 else
                 {
@@ -218,7 +218,7 @@ namespace MailSAVerTwee
 
             debug += recipients;
 
-            debug += "Deze email is: '" + inofuitgaand + "'\n";
+            debug += "Deze email is dus: '" + inofuitgaand + "'\n";
 
             MessageBox.Show(debug);
         }

@@ -53,7 +53,7 @@ namespace MailSAVerAddin
             FolderString found = null;
             foreach (FolderString item in lbProjecten.Items)
             {
-                if (folder == item.Pad)
+                if (folder == (item.Pad + "/email") || folder == item.Pad)
                 {
                     found = item;
                 }

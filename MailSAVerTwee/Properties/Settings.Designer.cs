@@ -48,6 +48,7 @@ namespace MailSAVerTwee.Properties {
   <string>nelis.luijten</string>
   <string>marcel.keus</string>
   <string>toos.hoezen</string>
+  <string>henk.dehollander</string>
 </ArrayOfString>")]
         public global::System.Collections.Specialized.StringCollection EmailUitgaand {
             get {
