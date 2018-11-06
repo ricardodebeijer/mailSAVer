@@ -1,3 +1,5 @@
+.vs/*
+publish
 
 # Created by https://www.gitignore.io/api/visualstudio
 
@@ -299,3 +301,4 @@ __pycache__/
 
 
 # End of https://www.gitignore.io/api/visualstudio
+
