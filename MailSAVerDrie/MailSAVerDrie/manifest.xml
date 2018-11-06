@@ -12,7 +12,7 @@
   <Id>af8c07b9-d363-4cc5-b191-206c73aa9b2b</Id>
 
   <!--Version. Updates from the store only get triggered if there is a version change. -->
-  <Version>1.0.0.0</Version>
+  <Version>1.0.0.1</Version>
   <ProviderName>Ricardo de Beijer</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
   <!-- The display name of your add-in. Used on the store and various places of the Office UI such as the add-ins dialog. -->
@@ -113,13 +113,13 @@
         <bt:Url id="messageReadTaskPaneUrl" DefaultValue="https://localhost:3000/index.html"/>
       </bt:Urls>
       <bt:ShortStrings>
-        <bt:String id="groupLabel" DefaultValue="My Add-in Group"/>
-        <bt:String id="customTabLabel"  DefaultValue="My Add-in Tab"/>
-        <bt:String id="paneReadButtonLabel" DefaultValue="Display all properties"/>
-        <bt:String id="paneReadSuperTipTitle" DefaultValue="Get all properties"/>
+        <bt:String id="groupLabel" DefaultValue="MailSAVer"/>
+        <bt:String id="customTabLabel"  DefaultValue="MailSAVer"/>
+        <bt:String id="paneReadButtonLabel" DefaultValue="Open MailSAVer"/>
+        <bt:String id="paneReadSuperTipTitle" DefaultValue="Open MailSAVer"/>
       </bt:ShortStrings>
       <bt:LongStrings>
-        <bt:String id="paneReadSuperTipDescription" DefaultValue="Opens a pane displaying all available properties. This is an example of a button that opens a task pane."/>
+        <bt:String id="paneReadSuperTipDescription" DefaultValue="Open het scherm van MailSAVer"/>
       </bt:LongStrings>
     </Resources>
   </VersionOverrides>

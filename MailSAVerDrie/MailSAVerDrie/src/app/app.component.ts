@@ -8,13 +8,20 @@ const template = require('./app.component.html');
     template
 })
 export default class AppComponent {
-    headerTitle = 'Welcome';
 
-    async run() {
-        /**
-         * Insert your Outlook code here
-         */
-
-         console.log('Test')
+    subject = "Onderwerp"
+    sender = "Libor"
+    receiver = "Michel"
+    isIncoming = true
+    path = ""
+    
+    async saveProject() {
+         console.log('Test saveProject')
+         path = "Save Project"
     }
+
+    async saveAnders() {
+        console.log('Test saveAnders')
+        path = "Save Anders"
+   }
 }

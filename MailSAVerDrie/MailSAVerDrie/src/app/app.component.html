@@ -1,16 +1,26 @@
-<header class="ms-welcome__header ms-bgColor-neutralLighter ms-u-fadeIn500">
-    <h1 class="ms-fontSize-su ms-fontWeight-light ms-fontColor-neutralPrimary">
-        {{headerTitle}}
+<header >
+    <h1 >
+      MailSAVer
     </h1>
 </header>
-<main class="ms-welcome__main">
-    <h2 class="ms-font-xl ms-fontWeight-semilight ms-fontColor-neutralPrimary ms-u-slideUpIn20">
-        MailSAVer Drie
-    </h2>
+<main >
+        <h2>Info:</h2>
+    <p><b>Onderwerp:</b> {{subject}}</p>
+    <p><b>Zender:</b> {{sender}}</p>
+    <p><b>Ontvanger:</b> {{receiver}}</p>
+    <p><b>In/Outcoming:</b> {{isIncoming}}</p>
 
-    <p class="ms-font-l">Modify the source files, then click <b>Run</b>.</p>
-    <div role="button" class="ms-welcome__action ms-Button ms-Button--hero ms-u-slideUpIn20" (click)="run()">
-        <span class="ms-Button-label">Run</span>
-        <span class="ms-Button-icon"><i class="ms-Icon ms-Icon--ChevronRight"></i></span>
-    </div>
+    <p *ngIf="path"><b>Pad:</b> {{path}}</p>
+
+    <h2>Acties:</h2>
+    
+    <ul>
+        <li>
+            <a href="#"  (click)="saveProject()">Save naar project</a>
+        </li>
+        <li>
+                <a href="#" (click)="saveAnders()">Save anders</a>
+            </li>
+
+    </ul>
 </main>
